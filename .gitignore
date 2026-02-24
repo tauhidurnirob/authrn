@@ -1,0 +1,135 @@
+# OSX
+# React Native - sensible defaults
+
+## Dependency directories
+node_modules/
+
+## Bundler / Ruby
+/vendor/bundle/
+
+## Metro / packager cache
+.metro-health-check*
+.parcel-cache/
+.cache/
+
+## Yarn
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## OS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+## Environment
+.env
+.env.*
+
+## Xcode / iOS
+# Build products
+ios/build/
+build/
+DerivedData/
+*.ipa
+*.app
+
+# User settings / workspace
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+xcuserdata/
+*.xcuserstate
+
+# CocoaPods
+ios/Pods/
+/Pods/
+
+# Xcode workspace files (user-specific)
+ios/*.xcworkspace/
+ios/*.xcodeproj/
+ios/.xcode.env
+
+## Android
+android/.gradle/
+android/build/
+android/app/build/
+android/gradle.properties
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradlew
+android/gradlew.bat
+android/settings.gradle
+android/local.properties
+
+# Android NDK / native caches
+android/app/.cxx/
+
+# Assets
+android/app/src/main/assets/
+!android/app/src/main/assets/index.android.bundle
+!android/app/src/main/assets/fonts/
+
+## IDEs
+.idea/
+*.iml
+.vscode/
+
+## Keystores
+*.keystore
+debug.keystore
+
+## Misc build/test
+.jsbundle
+.hprof
+/coverage/
+
+## Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+## Expo
+/.expo/
+.expo-shared/
+
+node_modules/
+
+# Metro bundler cache
+.yarn/
+.npm/
+
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment variables file
+.env
+.env.local
+
+# Xcode and related files
+ios/build/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+ios/Pods/
+
+# Android Studio and related files
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/app/src/main/assets/
+!android/app/src/main/assets/index.android.bundle
+!android/app/src/main/assets/fonts/
+android/local.properties

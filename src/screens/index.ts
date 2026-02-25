@@ -1,3 +1,3 @@
-export * from './LoginScreen';
-export * from './SignupScreen';
-export * from './HomeScreen';
+export * from './login/LoginScreen';
+export * from './signup/SignupScreen';
+export * from './home/HomeScreen';
